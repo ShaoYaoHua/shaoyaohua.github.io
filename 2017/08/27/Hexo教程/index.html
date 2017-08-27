@@ -16,9 +16,14 @@
 <meta property="og:site_name" content="逐年流光的博客">
 <meta property="og:description" content="安装hexo 把自己在搭建过程中遇到的一些问题记录下来">
 <meta property="og:image" content="http://ovbwuow7u.bkt.clouddn.com/9fe4afa0gw1faljhotcr1j20dv0atq4u.jpg">
+<meta property="og:image" content="http://ovbwuow7u.bkt.clouddn.com/9fe4afa0gw1faljikc6nbj20bh06l3z7.jpg">
+<meta property="og:image" content="http://ovbwuow7u.bkt.clouddn.com/9fe4afa0gw1faljiuibwdj20it0cb3zd.jpg">
+<meta property="og:image" content="http://ovbwuow7u.bkt.clouddn.com/%5BXC%600ZPCHG~_@8YKJJAFNW2.png">
+<meta property="og:image" content="http://ovbwuow7u.bkt.clouddn.com/H5TRY0O~@T%5DSYM%25M7U8STJN.png">
+<meta property="og:image" content="http://ovbwuow7u.bkt.clouddn.com/A_AQ$31R%29JQHW2KRO4Y1Y$Q.png">
 <meta property="og:image" content="http://ovbwuow7u.bkt.clouddn.com/I$Z8%29P%5D60%7BS~%5BCRQPVIN43Q.png">
 <meta property="og:image" content="http://ovbwuow7u.bkt.clouddn.com/I$Z8%29P%5D60%7BS~%5BCRQPVIN43Q.png">
-<meta property="og:updated_time" content="2017-08-27T06:08:46.221Z">
+<meta property="og:updated_time" content="2017-08-27T06:36:29.818Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo教程">
 <meta name="twitter:description" content="安装hexo 把自己在搭建过程中遇到的一些问题记录下来">
@@ -183,27 +188,29 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h1><hr>
-<p>把自己在搭建过程中遇到的一些问题记录下来</p>
-<a id="more"></a>
+<p>把自己在搭建过程中遇到的一些问题记录下来<br><a id="more"></a></p>
 <h2 id="需要准备的一些工具"><a href="#需要准备的一些工具" class="headerlink" title="需要准备的一些工具"></a>需要准备的一些工具</h2><p>1 <a href="https://git-scm.com/downloads" target="_blank" rel="external">Git</a><br>2 <a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></p>
 <h2 id="安装两个软件"><a href="#安装两个软件" class="headerlink" title="安装两个软件"></a>安装两个软件</h2><h3 id="1-Node-js安装"><a href="#1-Node-js安装" class="headerlink" title="1. Node.js安装"></a>1. Node.js安装</h3><p><img src="http://ovbwuow7u.bkt.clouddn.com/9fe4afa0gw1faljhotcr1j20dv0atq4u.jpg" alt="git"></p>
-<p>  在cmd模式下输入<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div></pre></td><td class="code"><pre><div class="line">node -v</div><div class="line">npm -v</div><div class="line">```  </div><div class="line">![git](http://ovbwuow7u.bkt.clouddn.com/<span class="number">9</span>fe4afa0gw1faljikc6nbj20bh06l3z7.jpg)</div><div class="line"></div><div class="line">如果结果如下图所示，则说明安装正确，如果不正确，可以环境变量需要自己重新配置下。</div><div class="line">![git](http://ovbwuow7u.bkt.clouddn.com/<span class="number">9</span>fe4afa0gw1faljiuibwdj20it0cb3zd.jpg)</div><div class="line"><span class="comment">### 2. git安装</span></div><div class="line">安装方法和Node.js差不多</div><div class="line"></div><div class="line">安装完成的也在cmd模式下输入</div><div class="line">```python</div><div class="line">git --version</div><div class="line">```  </div><div class="line">如果没有版本号可能需要自己重新配置环境变量</div><div class="line"></div><div class="line"></div><div class="line">至此我们准备工作完成</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">## 安装Hexo</span></div><div class="line"></div><div class="line">在自己电脑上的文件夹创建一个文件夹，这里我以D：/workspace 为例子讲解，首先在D盘目录下创建Hexo文件夹，并在命令行（cmd）的窗口进入到该目录</div><div class="line"></div><div class="line"></div><div class="line">![安装Hexo](http://ovbwuow7u.bkt.clouddn.com/%<span class="number">5</span>BXC%<span class="number">600</span>ZPCHG~_@<span class="number">8</span>YKJJAFNW2.png)</div><div class="line">在命令行中输入：</div><div class="line">```python</div><div class="line">npm install hexo-cli -g</div><div class="line">```  </div><div class="line"></div><div class="line">![安装Hexo](http://ovbwuow7u.bkt.clouddn.com/H5TRY0O~@T%<span class="number">5</span>DSYM%<span class="number">25</span>M7U8STJN.png)</div><div class="line"></div><div class="line">如果出现这个提示</div><div class="line">![安装Hexo](http://ovbwuow7u.bkt.clouddn.com/A_AQ$<span class="number">31</span>R%<span class="number">29J</span>QHW2KRO4Y1Y$Q.png)</div><div class="line">在命令行中输入：</div><div class="line">```python</div><div class="line">npm init -f</div></pre></td></tr></table></figure></p>
+<p>  在cmd模式下输入</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">node -v</div><div class="line">npm -v</div></pre></td></tr></table></figure>
+<p><img src="http://ovbwuow7u.bkt.clouddn.com/9fe4afa0gw1faljikc6nbj20bh06l3z7.jpg" alt="git"></p>
+<p>如果结果如下图所示，则说明安装正确，如果不正确，可以环境变量需要自己重新配置下。<br><img src="http://ovbwuow7u.bkt.clouddn.com/9fe4afa0gw1faljiuibwdj20it0cb3zd.jpg" alt="git"></p>
+<h3 id="2-git安装"><a href="#2-git安装" class="headerlink" title="2. git安装"></a>2. git安装</h3><p>安装方法和Node.js差不多</p>
+<p>安装完成的也在cmd模式下输入<br><figure class="highlight cmd"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git --version</div></pre></td></tr></table></figure></p>
+<p>如果没有版本号可能需要自己重新配置环境变量</p>
+<p>至此我们准备工作完成</p>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在自己电脑上的文件夹创建一个文件夹，这里我以D：/workspace 为例子讲解，首先在D盘目录下创建Hexo文件夹，并在命令行（cmd）的窗口进入到该目录</p>
+<p><img src="http://ovbwuow7u.bkt.clouddn.com/%5BXC%600ZPCHG~_@8YKJJAFNW2.png" alt="安装Hexo"><br>在命令行中输入：<br><figure class="highlight cmd"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g</div></pre></td></tr></table></figure></p>
+<p><img src="http://ovbwuow7u.bkt.clouddn.com/H5TRY0O~@T%5DSYM%25M7U8STJN.png" alt="安装Hexo"></p>
+<p>如果出现这个提示<br><img src="http://ovbwuow7u.bkt.clouddn.com/A_AQ$31R%29JQHW2KRO4Y1Y$Q.png" alt="安装Hexo"><br>在命令行中输入：<br><figure class="highlight cmd"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm init -f</div></pre></td></tr></table></figure></p>
 <p><img src="http://ovbwuow7u.bkt.clouddn.com/I$Z8%29P%5D60%7BS~%5BCRQPVIN43Q.png" alt="安装Hexo"></p>
-<p>然后输入</p>
-<pre><code class="python">npm install hexo --save
-</code></pre>
+<p>然后输入<br><figure class="highlight cmd"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo --save</div></pre></td></tr></table></figure></p>
 <p><img src="http://ovbwuow7u.bkt.clouddn.com/I$Z8%29P%5D60%7BS~%5BCRQPVIN43Q.png" alt="安装Hexo"></p>
-<h2 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h2><p>1.初始化Hexo<br>接着上面的操作，输入：</p>
-<pre><code class="python">hexo init
-</code></pre>
-<p>然后</p>
-<pre><code class="python">npm install
-</code></pre>
-<pre><code class="python">hexo g
-</code></pre>
+<h2 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h2><p>1.初始化Hexo<br>接着上面的操作，输入：<br><figure class="highlight cmd"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init</div></pre></td></tr></table></figure></p>
+<p>然后<br><figure class="highlight cmd"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install</div></pre></td></tr></table></figure></p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo g</div></pre></td></tr></table></figure>
 <p>最后</p>
-<pre><code class="python">hexo s
-</code></pre>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo s</div></pre></td></tr></table></figure>
 <p>在浏览器中打开<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a></p>
 <p>Hexo在本地的配置已经已经好了。</p>
 
@@ -485,6 +492,22 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">感悟</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">html5</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">前端</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">js</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">github</a>
               </li>
             
             <div class="clearfix"></div>
